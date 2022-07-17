@@ -6,7 +6,7 @@
 /*   By: aparolar <aparolar@student.42madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/16 17:01:39 by aparolar          #+#    #+#             */
-/*   Updated: 2022/07/16 18:24:14 by aparolar         ###   ########.fr       */
+/*   Updated: 2022/07/16 18:39:16 by aparolar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,19 +15,21 @@
 
 int main(void)
 {
-	Weapon	weaponA = Weapon();
-	Weapon	weaponB = Weapon();
-
-	weaponA.setType("Cold 45");
-	weaponB.setType("knive");
-
-	HumanA	humanA = HumanA("Alexkid", weaponA);
-	HumanB	humanB = HumanB("Chuck Norris");
-	humanA.attack();
-	humanB.attack();
-	humanB.setWeapon(weaponB);
-	humanB.attack();
-	humanB.setWeapon(weaponA);
-	humanB.attack();
+	{
+		Weapon club = Weapon("crude spiked club");
+		HumanA bob("Bob", club);
+		bob.attack();
+		club.setType("knife");
+		bob.attack();
+	}
+	{
+		Weapon club = Weapon("shitty club");
+		HumanB jim("Jim");
+		jim.attack();
+		jim.setWeapon(club);
+		jim.attack();
+		club.setType("spoon");
+		jim.attack();
+	}
 	return (0);
 }
