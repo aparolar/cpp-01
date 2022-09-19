@@ -6,7 +6,7 @@
 /*   By: aparolar <aparolar@student.42madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/16 12:40:50 by aparolar          #+#    #+#             */
-/*   Updated: 2022/07/16 13:03:25 by aparolar         ###   ########.fr       */
+/*   Updated: 2022/09/19 13:52:17 by aparolar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,3 +19,4 @@ Zombie*	zombieHorde(int N, std::string name)
 		horde[i].setName(name);
 	return (horde);
 }
+

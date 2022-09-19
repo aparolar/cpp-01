@@ -6,7 +6,7 @@
 /*   By: aparolar <aparolar@student.42madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/16 17:55:09 by aparolar          #+#    #+#             */
-/*   Updated: 2022/07/16 18:26:00 by aparolar         ###   ########.fr       */
+/*   Updated: 2022/09/19 13:54:49 by aparolar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,3 +28,4 @@ void	HumanB::attack(void)
 	else
 		std::cout << _name << " has not weapon" << std::endl;
 }
+

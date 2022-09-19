@@ -6,7 +6,7 @@
 /*   By: aparolar <aparolar@student.42madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/16 10:19:20 by aparolar          #+#    #+#             */
-/*   Updated: 2022/07/16 11:46:11 by aparolar         ###   ########.fr       */
+/*   Updated: 2022/09/19 13:32:06 by aparolar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,4 @@ void	randomChump(std::string name);
 Zombie*	newZombie(std::string name);
 
 #endif
+

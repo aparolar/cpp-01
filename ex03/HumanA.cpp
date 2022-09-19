@@ -6,7 +6,7 @@
 /*   By: aparolar <aparolar@student.42madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/16 17:17:20 by aparolar          #+#    #+#             */
-/*   Updated: 2022/07/16 18:08:33 by aparolar         ###   ########.fr       */
+/*   Updated: 2022/09/19 13:55:22 by aparolar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,3 +20,4 @@ void	HumanA::attack(void)
 {
 	std::cout << _name << " attacks with his " << (*_weapon).getType() << std::endl;
 }
+
